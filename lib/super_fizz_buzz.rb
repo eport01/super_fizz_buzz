@@ -8,7 +8,7 @@
 # def buzz
 # end 
 
-
+def super_fizz_buzz
   numbers_list = (1..100)
   numbers_list.each do |number|
     # if number % 7 == 0 || number % 5 ==0 || number % 3 == 0
@@ -28,5 +28,7 @@
         puts number   
       end 
   end
+end 
+super_fizz_buzz
 
 
